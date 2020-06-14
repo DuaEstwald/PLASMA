@@ -113,8 +113,8 @@ plt.figure()
 plt.semilogy(h,wpe(ne),'k',label='Langmuir')
 plt.semilogy(h,wc(mH,h,-e),'k:',label='Cyclotron (i)')
 plt.semilogy(h,wc(me,h,e),'k--',label='Cyclotron (e)')
-plt.semilogy(h,vn(nH,T,sig_i,mui),'r:',label='(in)') #SALE MAL
-plt.semilogy(h,vn(nH,T,sig_e,mue),'r--',label='(en)') #SALE MAL
+plt.semilogy(h,vn(nH,T,sig_i,mui),'r:',label='(in)') 
+plt.semilogy(h,vn(nH,T,sig_e,mue),'r--',label='(en)') 
 plt.semilogy(h,vie(ni,T),'b--',label='ei')
 plt.semilogy(h,vii(ne,T),'b:',label='ii')
 plt.xlabel('HEIGHT [KM]')
